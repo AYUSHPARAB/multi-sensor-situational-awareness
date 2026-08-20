@@ -11,3 +11,23 @@ output/*.png
 .DS_Store
 Thumbs.db
 .env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Data — never commit datasets
+data/raw/
+*.zip
+
+# Model weights — large, downloaded not committed
+models/
+*.pt
+
+# Outputs / scratch
+output/
+*.log
+tests/*.png
+
